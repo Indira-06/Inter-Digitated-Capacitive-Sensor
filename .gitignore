@@ -1,0 +1,16 @@
+# Ignore temp and backup files
+*.bak
+*.log
+*.tmp
+*.~*
+*.DS_Store
+
+# Ignore large Ansys temp/cache if generated
+**/~$*
+**/*.lock
+**/__pycache__/
+
+# VS Code and system junk
+.vscode/
+Thumbs.db
+desktop.ini
